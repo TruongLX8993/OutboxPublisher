@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{749E0BFE-FAF6-41C5-8E62-82558D4C8374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Oracle", "Publisher.Oracle\Publisher.Oracle.csproj", "{F8AFAB46-EE48-438E-9BAD-5A5AA3B1361E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Test", "Publisher.Test\Publisher.Test.csproj", "{75860B4C-9CBB-45A4-83E0-92D124B0C76F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{749E0BFE-FAF6-41C5-8E62-82558D4C8374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749E0BFE-FAF6-41C5-8E62-82558D4C8374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749E0BFE-FAF6-41C5-8E62-82558D4C8374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749E0BFE-FAF6-41C5-8E62-82558D4C8374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AFAB46-EE48-438E-9BAD-5A5AA3B1361E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AFAB46-EE48-438E-9BAD-5A5AA3B1361E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AFAB46-EE48-438E-9BAD-5A5AA3B1361E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AFAB46-EE48-438E-9BAD-5A5AA3B1361E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75860B4C-9CBB-45A4-83E0-92D124B0C76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75860B4C-9CBB-45A4-83E0-92D124B0C76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75860B4C-9CBB-45A4-83E0-92D124B0C76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75860B4C-9CBB-45A4-83E0-92D124B0C76F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

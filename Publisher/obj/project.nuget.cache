@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RJO8MAcu9/letzS4GdjY7bDq6EVyo0/Bxtq6TMWmE5c1gqtyrMAyZLga9r+BsrBImiIUAGrCs0Yp66zTtEW0Yg==",
+  "success": true,
+  "projectFilePath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj",
+  "expectedPackageFiles": [
+    "/Users/truonglx/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/truonglx/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
+    "/Users/truonglx/.nuget/packages/rabbitmqclientlib/1.0.0/rabbitmqclientlib.1.0.0.nupkg.sha512",
+    "/Users/truonglx/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/truonglx/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

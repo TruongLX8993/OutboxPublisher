@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Publisher\Publisher.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper.Oracle" Version="2.0.3" />
+      <PackageReference Include="Oracle.ManagedDataAccess" Version="21.3.0" />
+    </ItemGroup>
+
+</Project>
