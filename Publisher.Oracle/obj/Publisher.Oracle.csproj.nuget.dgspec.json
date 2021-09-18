@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/truonglx/Development/Project/OutboxPublisher/Publisher.Oracle/Publisher.Oracle.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher.Oracle\\Publisher.Oracle.csproj": {}
   },
   "projects": {
-    "/Users/truonglx/Development/Project/OutboxPublisher/Publisher.Oracle/Publisher.Oracle.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher.Oracle\\Publisher.Oracle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher.Oracle/Publisher.Oracle.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher.Oracle\\Publisher.Oracle.csproj",
         "projectName": "Publisher.Oracle",
-        "projectPath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher.Oracle/Publisher.Oracle.csproj",
-        "packagesPath": "/Users/truonglx/.nuget/packages/",
-        "outputPath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher.Oracle/obj/",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher.Oracle\\Publisher.Oracle.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher.Oracle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/truonglx/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net461"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net461": {
+            "targetAlias": "net461",
             "projectReferences": {
-              "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj": {
-                "projectPath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj"
+              "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\Publisher.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\Publisher.csproj"
               }
             }
           }
@@ -39,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net461": {
+          "targetAlias": "net461",
           "dependencies": {
             "Dapper.Oracle": {
               "target": "Package",
@@ -48,49 +50,36 @@
             },
             "Oracle.ManagedDataAccess": {
               "target": "Package",
-              "version": "[21.3.0, )"
+              "version": "[19.12.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\Publisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\Publisher.csproj",
         "projectName": "Publisher",
-        "projectPath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/Publisher.csproj",
-        "packagesPath": "/Users/truonglx/.nuget/packages/",
-        "outputPath": "/Users/truonglx/Development/Project/OutboxPublisher/Publisher/obj/",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\Publisher.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Projects\\OutboxPublisher\\Publisher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/truonglx/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net461"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net461": {
+            "targetAlias": "net461",
             "projectReferences": {}
           }
         },
@@ -101,8 +90,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net461": {
+          "targetAlias": "net461",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -113,22 +102,7 @@
               "version": "[1.0.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
